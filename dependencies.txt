@@ -1,0 +1,4 @@
+xorg-dev
+libgl1-mesa-dev
+libwayland-dev
+libxkbcommon-dev
