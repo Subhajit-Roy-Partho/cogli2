@@ -1,4 +1,4 @@
-CMAKE_MINIMUM_REQUIRED(VERSION 3.1)
+CMAKE_MINIMUM_REQUIRED(VERSION 3.5)
 
 # if both legacy and GLVND libraries are available, then we want to use the latter by default 
 if(POLICY CMP0072)
