@@ -86,6 +86,7 @@ IF(PNG_FOUND AND NOT NOPNG)
 	ADD_DEFINITIONS(-DENABLE_PNG_EXPORT)
 	MESSAGE(STATUS "Compiling with libpng support enabled")
 	
+	INCLUDE_DIRECTORIES(${PNG_INCLUDE_DIRS})
 	TARGET_LINK_LIBRARIES(${exe_name} ${PNG_LIBRARY})
 ELSE()
 	MESSAGE(STATUS "Compiling with no libpng support")
